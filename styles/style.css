@@ -1,0 +1,272 @@
+.sidebar-text {
+  background-color: #1d1c40;
+}
+
+/* width */
+.nav-menu::-webkit-scrollbar {
+  width: 8px;
+}
+:hover.nav-menu::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 20px;
+}
+.user-name {
+  line-height: 20px;
+}
+
+.page-content {
+  width: 787px;
+}
+
+.percent {
+  position: relative;
+  height: 68px;
+}
+
+.percent svg {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.percent svg circle {
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke-width: 10;
+  stroke: black;
+  transform: translate(5px, 5px);
+  stroke-dashoffset: 440;
+  stroke-dasharray: 440;
+}
+
+.percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+
+.percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 10) / 100);
+  stroke: #5855d6;
+}
+
+.other-content .course {
+  width: 336px;
+  height: 304px;
+}
+
+.other-content .course img {
+  width: 270px;
+}
+
+.other-content .timeline {
+  width: 513px;
+}
+.course .course-timeline {
+  width: 315px;
+  height: 10px;
+}
+.course .course-date {
+  width: 289px;
+}
+
+.chat-section {
+  width: 258px;
+}
+
+.friend-list {
+  width: 230px;
+}
+.calender {
+  width: 681px;
+}
+
+.chat-section {
+  height: fit-content;
+}
+
+.nav-bar {
+  width: 240.17px;
+}
+
+.short-sidebar {
+  width: 111px;
+}
+
+@media (max-width: 375px) {
+  .short-sidebar {
+    display: none;
+  }
+}
+
+.black-overlay {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 834px) {
+  .main-content {
+    margin-left: 111px;
+  }
+}
+
+@media (max-width: 375px) {
+  .top-nav {
+    margin-bottom: 7px;
+  }
+  .main-content {
+    margin-left: 0px;
+  }
+
+  .main-content .top-nav {
+    padding: 0;
+  }
+
+  .main-content .top-nav .search input {
+    background-color: #f8f8fc;
+  }
+
+  .main-content .top-nav .search input::placeholder {
+    color: #f8f8fc;
+  }
+
+  .main-content .top-nav .search-input {
+    height: 35px;
+    width: 164px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+  }
+  .main-content .top-nav .bell {
+    display: none;
+  }
+
+  .main-content .top-nav .user-name {
+    display: none;
+  }
+
+  .main-content .top-nav .ThreeDots {
+    display: none;
+  }
+  .main-content .top-nav .top-nav-right {
+    border: none;
+  }
+
+  .main-content .top-nav .top-nav-right button {
+    margin-left: 0px;
+  }
+
+  .main-content .top-nav .top-nav-right img {
+    margin-left: 12px;
+    margin-right: 16px;
+    margin-top: 0px;
+    width: 34px;
+  }
+
+  .main-content .top-nav .search {
+    background-color: #f8f8fc;
+    height: 37px;
+    margin-top: 7px;
+    margin-left: 59px;
+    border-radius: 5px;
+  }
+
+  .main-content .top-nav .search .search-icon {
+    margin-left: 9px;
+  }
+}
+
+@media (max-width: 375px) {
+  .programes .program-list .grades {
+    display: none;
+  }
+
+  .programes .study-info .degree-title {
+    font-size: 8px;
+  }
+  .programes .study-info .college-name {
+    font-size: 12px;
+  }
+  .programes .study-info .campus-location {
+    font-size: 12px;
+  }
+
+  .header .customize-button {
+    display: none;
+  }
+
+  .header {
+    width: 110px;
+  }
+
+  .programes {
+    width: 345px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .study-info {
+    margin-left: 12px;
+  }
+
+  .other-content {
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+  }
+
+  .other-content .course img {
+    display: none;
+  }
+  .other-content .course .blue-mark {
+    display: none;
+  }
+
+  .other-content .timeline {
+    width: 346px;
+    margin-left: 0px;
+  }
+
+  .date-class-time .date {
+    margin-right: 49px;
+  }
+  .date-class-time .class {
+    margin-right: 122px;
+  }
+
+  .session-data .session-data-info {
+    margin-left: 0;
+    margin-top: -9px;
+    padding-right: 0;
+    padding-left: 11px;
+  }
+
+  .session-data .session-data-date {
+    margin-left: 0px;
+    width: 96px;
+  }
+  .session-data .parg1 {
+    font-size: 9px;
+  }
+
+  .session-data p {
+    font-size: 11px;
+  }
+  .calender {
+    display: none;
+  }
+  .mini-chat {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .course {
+    display: none;
+  }
+}
+
+.mini-chat {
+  width: 310px;
+  height: 57px;
+  background-color: #333269;
+  right: 15px;
+  bottom: 0;
+}
